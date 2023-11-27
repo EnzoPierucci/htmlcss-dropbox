@@ -149,12 +149,27 @@ main #plane .flex-col .flex-row{
     gap: 20px;
 }
 
-main #plane .flex-col .flex-row .table{
-    align-items: center;
+main #offert{
+    padding-top: 200px;
+    padding-left: 250px;
+    padding-right: 150px;
 }
 
-main #plane .flex-col .flex-row .table .flex-col span{
-    justify-content: center;
+.box{
+    border: 1px solid #D0D0D3;
+    
+}
+
+.box span{
+    border: 1px solid #D0D0D3;
+    padding: 20px;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+
+main .box{
+    align-items: center;
 }
 
 
