@@ -48,7 +48,7 @@ ul{
     list-style-type: none;
 }
 
-a{
+header a{
     color: black;
     text-decoration: none;
 }
@@ -56,6 +56,9 @@ a{
 
 .button{
     padding: 10px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .button-blu{
@@ -102,15 +105,30 @@ h2 {
     font-size: 45px;
 }
 
+h3{
+    font-size: 35px;
+}
+
 p{
     line-height: 180%;
 }
+
+main .offert{
+    padding-top: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+
 
 main #jumbo{
     background-color: #b7d0e8;
     padding-top: 200px;
     padding-left: 150px;
     padding-right: 150px;
+    padding-bottom: 50px;
 }
 
 main #jumbo .flex-row .w-30{
@@ -123,6 +141,7 @@ main #jumbo .flex-row .w-30{
 
 main #jumbo .flex-row .w-30 svg{
     height: 45px;
+    fill: black;
     
 }
 
@@ -131,6 +150,8 @@ main #jumbo .flex-row{
     bottom: -100px;
 
 }
+
+
 
 
 main #plane{
@@ -149,28 +170,6 @@ main #plane .flex-col .flex-row{
     gap: 20px;
 }
 
-main #offert{
-    padding-top: 200px;
-    padding-left: 250px;
-    padding-right: 150px;
-}
-
-.box{
-    border: 1px solid #D0D0D3;
-    
-}
-
-.box span{
-    border: 1px solid #D0D0D3;
-    padding: 20px;
-    padding-left: 220px;
-    padding-right: 220px;
-}
-
-
-main .box{
-    align-items: center;
-}
 
 
 .circle-container {
@@ -205,3 +204,126 @@ main .box{
 .circle-container:hover .center-point {
     opacity: 1;
 }
+
+
+
+section{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.left-col{
+    width: calc(100% / 3);
+    padding-right: 40px;
+}
+
+.central-col{
+    width: calc(100% / 3);
+    padding: 0px 20px;
+
+}
+
+.right-col{
+    width: calc(100% / 3);
+    padding-left: 40px;
+}
+
+.col-content{
+    width: 100%;
+    height: 1250px;
+    border: 2px solid #999;
+}
+
+.col-header{
+    border-bottom: 2px solid #999;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.col-main{
+    padding:  30px;
+}
+
+.prezzo{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.durata{
+    font-size: 15px;
+    color: #999;
+    margin-bottom: 60px;
+}
+
+.utenti{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.spazio{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.funzioni i{
+    position: absolute;
+    left: 0px;
+    padding: 2px;
+}
+
+.funzioni{
+    font-size: 17px;
+    margin-bottom: 70px;
+    position: relative;
+    padding-left: 22px;
+}
+
+.col-main .pulsante a{
+    text-align: center;
+    padding: 13px 57px;
+}
+
+.buy-now{
+    margin-top: 40px;
+    font-size: 17px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.buy-now span a{
+    color: #0060FF;
+}
+
+.line{
+    width: 70px;
+    border-top: 2px solid #999;
+    margin-bottom: 50px;
+}
+
+.col-main ul{
+    margin-top: 30px;
+}
+
+.col-main ul li{
+    margin: 30px 0px;
+    font-weight: 500;
+    list-style-type: none;
+    position: relative;
+    padding-left: 23px;
+}
+
+.col-main ul li::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    color: #0060FF;
+    position: absolute;
+}
+
+
+
