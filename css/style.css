@@ -331,11 +331,15 @@ section{
 }
 
 
-
+.fix-h{
+    margin: 100px;
+    margin-top: 200px;
+}
 
 .second-section{
     margin-top: 150px;
     height: 600px;
+    
 }
 
 .photo{
